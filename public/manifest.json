@@ -1,0 +1,28 @@
+{
+  "browser_action": {
+      "browser_style": true,
+      "default_title": "查看基金",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "funds-monitor@tofupudding.net"
+    }
+  },
+  "default_locale": "zh_CN",
+  "description": "基金盯盘扩展",
+  "homepage_url": "https://github.com/fzn0268/funds-ext",
+  "manifest_version": 2,
+  "name": "Funds Monitor",
+  "options_ui": {
+      "page": "options.html",
+      "browser_style": true
+  },
+  "permissions": [
+    "storage",
+    "*://fund.eastmoney.com/*",
+    "*://fundgz.1234567.com.cn/*"
+  ],
+  "version": "0.1"
+}
