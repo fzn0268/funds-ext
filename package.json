@@ -23,7 +23,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10",
-    "web-ext": "^3.0.0"
+    "web-ext": "^3.2.1"
   },
   "eslintConfig": {
     "root": true,
